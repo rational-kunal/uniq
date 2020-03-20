@@ -2,10 +2,8 @@ name: Integration Test
 on: [push]
 jobs:
   build:
+    name: self test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Self test
-
-        # Put your action repo here
       - uses: rational-kunal/uniq@master
