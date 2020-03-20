@@ -4,7 +4,8 @@ author: "Kunal Kamble"
 inputs:
   ignore:
     description: "file names that should be ignored"
-    default: []
+    default:
+    - index.js
 outputs:
   output:
     description: "Output from the action"
