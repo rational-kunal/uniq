@@ -1,10 +1,8 @@
 import os
-import requests  # noqa We are just importing this to prove the dependency installed correctly
-
 
 def main():
-    assert False, "falsy"
-
+    for root,d_names,f_names in os.walk("."):
+	print(root, d_names, f_names)
 
 if __name__ == "__main__":
     main()
