@@ -1,12 +1,12 @@
-name: "Python Container Action Template"
-description: "Get started with Python Container actions"
-author: "Jacob Tomlinson"
+name: "uniq"
+description: "No duplicate file names under my watch"
+author: "Kunal Kamble"
 inputs:
-  myInput:
-    description: "Input to use"
-    default: "world"
+  ignore:
+    description: "file names that should be ignored"
+    default: []
 outputs:
-  myOutput:
+  output:
     description: "Output from the action"
 runs:
   using: "docker"
