@@ -6,7 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Self test
-       	id: selftest
 
         # Put your action repo here
-        uses: rational-kunal/uniq@master
+      - uses: rational-kunal/uniq@master
