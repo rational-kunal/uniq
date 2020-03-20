@@ -1,6 +1,9 @@
 name: "uniq"
 description: "No duplicate file names under my watch"
 author: "Kunal Kamble"
+inputs:
+  PATH:
+    description: "your sorce path"
 runs:
   using: "docker"
   image: "Dockerfile"
