@@ -9,4 +9,4 @@ jobs:
         id: selftest
 
         # Put your action repo here
-        uses: ./
+        uses: rational-kunal/uniq@master
