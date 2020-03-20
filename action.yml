@@ -1,12 +1,6 @@
 name: "uniq"
 description: "No duplicate file names under my watch"
 author: "Kunal Kamble"
-inputs:
-  ignore:
-    description: "file names that should be ignored"
-outputs:
-  output:
-    description: "Output from the action"
 runs:
   using: "docker"
   image: "Dockerfile"
